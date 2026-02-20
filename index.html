@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaima KTARI | Ingénieure Informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+</head>
+<body>
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar">
+        <!-- Language Switcher in Top Right of Sidebar -->
+        <div class="language-switcher">
+            <button class="lang-btn active" data-lang="fr" title="Français">
+                <span class="flag-icon flag-icon-fr"></span>
+            </button>
+            <button class="lang-btn" data-lang="en" title="English">
+                <span class="flag-icon flag-icon-gb"></span>
+            </button>
+        </div>
+        
+        <div class="profile">
+            <img src="assets/images/chaima-photo.jpg" alt="Chaima KTARI">
+            <h2 data-i18n="name">Chaima KTARI</h2>
+            <p data-i18n="title">Ingénieure Informatique</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav.home"><i class="fas fa-home"></i> <span>Accueil</span></a></li>
+            <li><a href="#about" data-i18n="nav.about"><i class="fas fa-user"></i> <span>À propos</span></a></li>
+            <li><a href="#experience" data-i18n="nav.experience"><i class="fas fa-briefcase"></i> <span>Expérience</span></a></li>
+            <li><a href="#education" data-i18n="nav.education"><i class="fas fa-graduation-cap"></i> <span>Éducation</span></a></li>
+            <li><a href="#skills" data-i18n="nav.skills"><i class="fas fa-code"></i> <span>Compétences</span></a></li>
+            <li><a href="#languages" data-i18n="nav.languages"><i class="fa-solid fa-language"></i> <span>Langues</span></a></li>
+            <li><a href="#projects" data-i18n="nav.projects"><i class="fa-solid fa-folder-open"></i> <span>Projets</span></a></li>
+            <li><a href="#contact" data-i18n="nav.contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://github.com/chaimaktari"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chaima-ktari-544a321ba/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero">
+                <h1 data-i18n="hero.greeting">Bonjour, je suis <span class="highlight">Chaima KTARI</span></h1>
+                <h2 data-i18n="hero.subtitle">Ingénieure Informaique (Développeuse FullStack Web / Passionnée d'IA)</h2>
+                <a href="#contact" class="btn" data-i18n="hero.cta">Contactez-moi</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title" data-i18n="about.title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.para1">Je suis une jeune ingénieure informatique récemment diplômée et passionnée par les technologies, j'ai acquis une expérience professionnelle diversifiée à travers plusieurs stages en entreprise. Mon parcours allie une formation académique solide à une pratique concrète du développement dans des environnements variés.</p>
+                    <p data-i18n="about.para2">Je communique facilement en français et en anglais, ce qui me permet de travailler efficacement dans des contextes internationaux. Dotée d'une grande curiosité intellectuelle, j'aime apprendre en continu et m'adapter aux nouvelles technologies. Mon expérience en travail d'équipe, renforcée par mon engagement associatif, m'a enseigné l'importance de la collaboration et de l'écoute pour mener des projets à succès.</p>
+
+                    <p data-i18n="about.para3">Aujourd'hui, je souhaite intégrer une équipe dynamique afin de contribuer à des projets innovants tout en poursuivant le développement de mes compétences au sein d'un environnement stimulant et bienveillant.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span data-i18n="about.email">Email:</span>
+                            <span>chaimaktari6@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="about.location">Localisation:</span>
+                            <span data-i18n="about.location.value">Tunis, Tunisie</span>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="about.availability">Disponibilité:</span>
+                            <span data-i18n="about.availability.value">Ouverte aux opportunités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title" data-i18n="experience.title">Expérience Professionnelle</h2>
+            <div class="timeline">
+                
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">02/2025 – 08/2025</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage PFE</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job1.title">Développeuse Full Stack .NET (ASP.NET Core)</h3>
+                            <h4 data-i18n="experience.job1.company">AsteelFlash, Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                              <li data-i18n="experience.job1.achievement1">
+    Conception et développement d'une application Full Stack en .NET, avec gestion des flux de données et des règles métier.
+  </li>
+  <li data-i18n="experience.job1.achievement2"> Mise en place d'un système d'import automatisé de données depuis des fichiers Excel, avec intégration directe en base afin d'éliminer la saisie manuelle et réduire les erreurs.</li>
+  <li data-i18n="experience.job1.achievement3"> Développement d'interfaces utilisateur web en HTML, CSS et JavaScript.</li>
+  <li data-i18n="experience.job1.achievement4"> Implémentation de processus automatisés en Python pour garantir l'intégrité et la conformité des données.</li>
+  <li data-i18n="experience.job1.achievement5">Développement d'un système automatisé de scan des bobines, validant les références par prototype à partir de fichiers Excel et intégrant uniquement les données conformes. </li>
+  <li data-i18n="experience.job1.achievement6"> Analyse des données et visualisation des indicateurs clés (KPI) avec Power BI pour le suivi des performances, la détection d'anomalies et l'aide à la décision.</li>
+  <li data-i18n="experience.job1.achievement7"> Travail en environnement Agile SCRUM, avec collaboration étroite avec les équipes métier (user stories, sprints, réunions). </li>
+  <li data-i18n="experience.job1.achievement8"> Gestion de la persistance des données via Entity Framework Core sur une base SQL Server.</li>
+  <li data-i18n="experience.job1.achievement9"> Intégration d'un assistant intelligent basé sur un LLM (Ollama) pour répondre aux problématiques liées à la production et à la qualité.
+  </li>
+                     </ul> 
+                        <div class="tech-tags">
+                                <span class="tech-tag">.NET</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">Razor</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Power BI</span>
+                                <span class="tech-tag">Développement Web FullStack</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Github </span>
+                                <span class="tech-tag">Large Language Model (LLM) </span>
+                                <span class="tech-tag">Méthode Agile SCRUM</span>
+                                <span class="tech-tag">ASP.NET Core Identity</span>
+                                <span class="tech-tag">Entity Framework Core</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fas fa-laptop-code"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">06/2024 – 08/2024</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job2.title">Développeuse Web FullStack Java(Spring Boot)/React</h3>
+                            <h4 data-i18n="experience.job2.company">Talan Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                                <li data-i18n="experience.job2.achievement1"> Analyse des besoins métiers, conception et développement d'une application web full-stack pour la gestion des absences et congés des employés.</li>
+                            <li data-i18n="experience.job2.achievement2"> Développement d'API REST en Java (Spring Boot) et intégration avec le front-end Angular.</li>
+                            <li data-i18n="experience.job2.achievement3">Mise en place du suivi GPS en temps réel des animaux avec des données simulées via Express.js et cartes interactives avec Leaflet.</li>
+                            <li data-i18n="experience.job2.achievement4"> Intégration de WebSocket pour la messagerie instantanée et des notifications par e-mail.</li>
+                            <li data-i18n="experience.job2.achievement5">Implémentation de fonctionnalités de blockchain pour l'identification des animaux.</li>
+                            <li data-i18n="experience.job2.achievement5">Notifications temps réel via Firebase pour les alertes de zone et de santé.</li>
+                            <li data-i18n="experience.job2.achievement6">Gestion des utilisateurs et de la sécurité de l'application avec Spring Security.</li>
+                            <li data-i18n="experience.job2.achievement7">Accès et persistance des données avec Spring Data JPA sur une base MySQL.</li>
+                             </ul>
+                                <div class="tech-tags">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Postman</span>
+                                <span class="tech-tag">Développement Web FullStack</span>
+                                <span class="tech-tag">Spring Security</span>
+                                <span class="tech-tag">Spring Data JPA</span>
+                                <span class="tech-tag">BlockChain</span>
+                                <span class="tech-tag">Leaflet</span>
+                                <span class="tech-tag">WebSocket</span> 
+                                <span class="tech-tag">FireBase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date-container">
+                        <span class="timeline-icon"><i class="fa-solid fa-network-wired"></i></span>
+                        <div class="timeline-content">
+                            <div class="top-right-tags">
+                                <span class="date-tag">06/2023 – 08/2023</span>
+                                <span class="job-type-tag" data-i18n="experience.internship">Stage</span>
+                            </div>
+                            
+                            <h3 data-i18n="experience.job3.title">Administrateur système et réseau</h3>
+                            <h4 data-i18n="experience.job3.company">Ultim, Tunis, Tunisie</h4>
+                            
+                            <h5 data-i18n="experience.achievements"><span><i class="fa-solid fa-trophy"></i></span> Principales Réalisations</h5>
+                            <ul>
+                                <li data-i18n="experience.job3.achievement1">Installation et configuration de l'ERP Odoo..</li>
+                                <li data-i18n="experience.job3.achievement2">Personnalisation et intégration des modules ERP selon les besoins métier.</li>
+                                <li data-i18n="experience.job3.achievement3">Mise en place d'un Load Balancer afin d'assurer la haute disponibilité du système.</li>
+                            </ul>
+                            <div class="tech-tags">
+                                  <span class="tech-tag">Odoo ERP</span>
+                                  <span class="tech-tag">Python</span>
+                                  <span class="tech-tag">Load Balancing</span>
+                                  <span class="tech-tag">Proxmox</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Education Section -->
+<section id="education" class="section">
+    <h2 class="section-title" data-i18n="education.title">Éducation</h2>
+    <div class="education-grid">
+        
+        <!-- Education 1: Diplôme National d'Ingénieur -->
+        <div class="education-card">
+            <div class="edu-icon">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3 data-i18n="education.degree1.title">Diplôme National d'Ingénieur en Informatique</h3>
+            <h4 data-i18n="education.degree1.school">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+            <p class="edu-date">Séptembre 2022 - Séptembre 2025</p>
+            <p class="edu-desc" data-i18n="education.degree1.details">Spécialité: Développement Web, DevOps | Mention: Très  Bien | Moyenne : 16.87</p>
+            
+            <!-- Diploma Photo Container -->
+            <div class="diploma-photo-container">
+                <div class="photo-thumbnail" data-fullsize="assets/images/diplome_page-0001.jpg">
+                    <img src="assets/images/DiplomeDingenieur.jpeg" alt="Diplôme d'Ingénieur" data-i18n-alt="education.diploma3.alt">
+                    <div class="photo-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-i18n="education.view-diploma">Voir le diplôme</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Education 2: Licence en Mecatronique -->
+        <div class="education-card">
+            <div class="edu-icon">
+                <i class="fas fa-university"></i>
+            </div>
+            <h3 data-i18n="education.degree2.title">Licence National en Mecanique </h3>
+            <h4 data-i18n="education.degree2.school">Institut Supérieur des Etude Technologique de BEJA (ISET)</h4>
+            <p class="edu-date">Séptembre 2018 - Juin 2021</p>
+            <p class="edu-desc" data-i18n="education.degree2.details">Spécialisation:Informaique Décisionnelle (BI) | Mention: Bien | Moyenne : 15.34 </p>
+            
+            <!-- Diploma Photo Container -->
+            <div class="diploma-photo-container">
+                <div class="photo-thumbnail" data-fullsize="assets/images/Licence.jpeg">
+                    <img src="assets/images/Licence.jpeg" alt="Licence en Mecanique " data-i18n-alt="education.diploma2.alt">
+                    <div class="photo-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-i18n="education.view-diploma">Voir le diplôme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Education 3: Bac Techniques -->
+        <div class="education-card">
+            <div class="edu-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 data-i18n="education.degree3.title">Baccalauréat Sciences Techniques</h3>
+            <h4 data-i18n="education.degree3.school">Lycée Bach Hamba</h4>
+            <p class="edu-date"> Juin 2018</p>
+            
+            <!-- Diploma Photo Container -->
+            <div class="diploma-photo-container">
+                <div class="photo-thumbnail" data-fullsize="assets/images/Bac.jpeg">
+                    <img src="assets/images/Bac.jpeg" alt="Baccalauréat Sciences Techniques" data-i18n-alt="education.diploma1.alt">
+                    <div class="photo-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-i18n="education.view-diploma">Voir le diplôme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Lightbox Modal (Add this right before closing </body> tag) -->
+<div id="diploma-lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" src="" alt="Diploma">
+        <div class="lightbox-caption"></div>
+    </div>
+</div>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title" data-i18n="skills.title">Compétences</h2>
+            <div class="skills-container">
+                
+                <div class="skill-category">
+                    <h3 data-i18n="skills.langages">Langages de programmation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java 21</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.frontend">Framework de développement Web Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">React</span>
+
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="skills.backend">Framework de développement Web Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Symfony </span>
+                        <span class="skill-tag">.Net Core</span>
+                        
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.BD">Bases de données</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PL/SQL </span>
+                        <span class="skill-tag">NoSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 data-i18n="skills.devops">Cloud, DevOps & CI/CD</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker Compose</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Github Actions</span>
+                        <span class="skill-tag">Nexus</span>
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.administration">Administration sytème et réseau</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Windows</span>
+                        <span class="skill-tag">Linux(Ubuntu) </span>
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Nagios</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.agile">Méthodes Agile</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">Kanban</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.analyse">Analyse des données</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft PowerBI</span>
+                        <span class="skill-tag">Chart JS</span>
+                        <span class="skill-tag">Talend</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="skills.tests">Tests & Assurance Qualité</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Tests API (Postman, Swagger)</span>
+                        <span class="skill-tag">Tests Unitaires & Couverture(JUnit et JaCoCo)</span>
+                        <span class="skill-tag">Tests Fonctionnels </span>
+                        <span class="skill-tag">Sonarqube</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- Languages Section -->
+<section id="languages" class="section">
+    <h2 class="section-title" data-i18n="languages.title">Langues</h2>
+    <div class="languages-container">
+        <div class="language-item">
+            <div class="language-top-row">
+                <div class="language-icon">
+                    <span class="flag-icon flag-icon-tn"></span>
+                </div>
+                <h3 class="language-name" data-i18n="languages.arabic">Arabe</h3>
+            </div>
+            <span class="level-text" data-i18n="languages.level.native">Langue maternelle</span>
+        </div>
+        
+        <div class="language-item">
+            <div class="language-top-row">
+                <div class="language-icon">
+                    <span class="flag-icon flag-icon-fr"></span>
+                </div>
+                <h3 class="language-name" data-i18n="languages.french">Français</h3>
+            </div>
+            <span class="level-text" data-i18n="languages.level.b2">Niveau B2</span>
+        </div>
+        
+        <div class="language-item">
+            <div class="language-top-row">
+                <div class="language-icon">
+                    <span class="flag-icon flag-icon-gb"></span>
+                </div>
+                <h3 class="language-name" data-i18n="languages.english">Anglais</h3>
+            </div>
+            <span class="level-text" data-i18n="languages.level.b2">Niveau B2</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h2 class="section-title" data-i18n="projects.title">Projets Académiques</h2>
+    <div class="timeline">
+        
+        <!-- Projet 1: DevOps -->
+        <div class="timeline-item">
+            <div class="timeline-date-container">
+                <span class="timeline-icon"><i class="fas fa-infinity"></i></span>
+                <div class="timeline-content">
+                    <div class="top-right-tags">
+                        <span class="date-tag">10/2024 – 11/2024</span>
+                        <span class="job-type-tag">Projet DevOps</span>
+                    </div>
+                    
+                    <h3 data-i18n="projects.project1.title">Pipeline CI/CD DevOps avec Jenkins</h3>
+                    <h4 data-i18n="projects.project1.subtitle">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+                    
+                    <h5 data-i18n="projects.description"><span><i class="fa-solid fa-file-lines"></i></span> Description du projet</h5>
+                    <p data-i18n="projects.project1.description">Implémentation d'un pipeline CI/CD complet pour une application Spring Boot, automatisant l'intégration, les tests, la sécurité, la conteneurisation et le déploiement avec monitoring en temps réel.</p>
+                    
+                    <h5 data-i18n="projects.achievements"><span><i class="fa-solid fa-trophy"></i></span> Réalisations Techniques</h5>
+                    <ul>
+                        <li data-i18n="projects.project1.achievement1">Jenkins : Orchestration complète du pipeline CI/CD.</li>
+                        <li data-i18n="projects.project1.achievement2">Git : Gestion de versions et intégration continue.</li>
+                        <li data-i18n="projects.project1.achievement3">JUnit : Tests unitaires automatisés avec rapport de couverture de code.</li>
+                        <li data-i18n="projects.project1.achievement4">SonarQube : Analyse statique de code et métriques de qualité en continu.</li>
+                        <li data-i18n="projects.project1.achievement5">Docker : Conteneurisation de l'application Spring Boot.</li>
+                        <li data-i18n="projects.project1.achievement6">Docker Compose : Orchestration du contenaire Docker.</li>
+                        <li data-i18n="projects.project1.achievement7">Nexus : Gestion centralisée des artefacts et image Docker.</li>
+                        <li data-i18n="projects.project1.achievement8">Prometheus : Collecte et monitoring des métriques applicatives.</li>
+                        <li data-i18n="projects.project1.achievement6">Grafana : Visualisation des dashboards de performance et santé.</li>
+                        <li data-i18n="projects.project1.achievement10">Trivy : Scan de sécurité de l'image Docker.</li>
+                    </ul>
+                    
+                    <div class="project-evidence">
+                        <div class="evidence-item">
+                            <i class="fas fa-file-code"></i>
+                            <span>Jenkinsfile : </span>
+                            <button class="view-jenkinsfile-btn" data-i18n="projects.view.code">
+                                <i class="fas fa-eye"></i> Voir le code
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags">
+                        <span class="tech-tag">Jenkins</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Docker Compose</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
+                        <span class="tech-tag">CI/CD</span>
+                        <span class="tech-tag">Nexus</span>
+                        <span class="tech-tag">Sonarqube</span>
+                        <span class="tech-tag">JUnit</span>
+                        <span class="tech-tag">JaCoCo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 2: Full Stack Web -->
+        <div class="timeline-item">
+            <div class="timeline-date-container">
+                <span class="timeline-icon"><i class="fas fa-users"></i></span>
+                <div class="timeline-content">
+                    <div class="top-right-tags">
+                        <span class="date-tag">10/2023 – 04/2024</span>
+                        <span class="job-type-tag">Projet de développement Web Full Stack</span>
+                    </div>
+                    
+                    <h3 data-i18n="projects.project2.title">Projet d'intégration Cloud et développement Web FullStack(Java/Angular)</h3>
+                    <h4 data-i18n="projects.project2.subtitle">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+                    
+                    <h5 data-i18n="projects.description"><span><i class="fa-solid fa-file-lines"></i></span> Description du projet</h5>
+                    <p data-i18n="projects.project2.description">Conception d'une application web full-stack ERP offrant une gestion intégrée des entreprises, du personnel et des stocks</p>
+                    
+                    <h5 data-i18n="projects.achievements"><span><i class="fa-solid fa-trophy"></i></span> Réalisations Techniques</h5>
+                <ul>
+                    <li data-i18n="projects.project2.achievement1">Développement des API REST côté backend avec Spring Boot et gestion des données avec Spring Data JPA.</li>
+                    <li data-i18n="projects.project2.achievement2">Mise en place de la sécurité et des rôles utilisateurs avec Spring Security.</li>
+                    <li data-i18n="projects.project2.achievement3">Test des API REST avec Postman et réalisation de tests unitaires et d'intégration avec JUnit.</li>
+                    <li data-i18n="projects.project2.achievement4">Développement des interfaces utilisateurs avec Angular, intégration complète avec le backend, création de formulaires, tableaux dynamiques et dashboards.</li>
+                    <li data-i18n="projects.project2.achievement5">Gestion des versions et collaboration avec Git.</li>
+                    <li data-i18n="projects.project2.achievement6">Documentation des API avec Swagger et configuration des environnements.</li>
+                    <li data-i18n="projects.project2.achievement7">Projet réalisé selon la méthode Agile / SCRUM pour planifier, suivre et livrer les fonctionnalités efficacement.</li>
+                </ul>
+                    
+                    <div class="project-evidence">
+                        <div class="evidence-item">
+                            <i class="fab fa-github"></i>
+                            <span>Repository GitHub : </span>
+                            <a href="https://github.com/ImenHadj/Coconsult-backend.git" target="_blank" class="evidence-link" data-i18n="projects.view.github">
+                                <i class="fas fa-external-link-alt"></i> Voir le code source
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags">
+                        <span class="tech-tag">Java 21</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Spring Security</span>
+                        <span class="tech-tag">Spring Data JPA</span>
+                        <span class="tech-tag">API REST</span>
+                        <span class="tech-tag">Angular 15</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Cloudinary</span>
+                        <span class="tech-tag">WebSocket </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 3: Symfony & JavaFX -->
+        <div class="timeline-item">
+            <div class="timeline-date-container">
+                <span class="timeline-icon"><i class="fas fa-flag-checkered"></i></span>
+                <div class="timeline-content">
+                    <div class="top-right-tags">
+                        <span class="date-tag">02/2023 – 05/2023</span>
+                        <span class="job-type-tag">Projet de développement</span>
+                    </div>
+                    
+                    <h3 data-i18n="projects.project3.title">Projet de développemnt Web et Desktop</h3>
+                    <h4 data-i18n="projects.project3.subtitle">École Supérieure Privée d'Ingénierie et Technologie (ESPRIT)</h4>
+                    
+                    <h5 data-i18n="projects.description"><span><i class="fa-solid fa-file-lines"></i></span> Description du projet</h5>
+                    <p data-i18n="projects.project3.description">Développement d'un application web et desktop pour l'organisation et la getion des courses de voitures.</p>
+                    
+                    <h5 data-i18n="projects.achievements"><span><i class="fa-solid fa-trophy"></i></span> Réalisations Techniques</h5>
+                    <ul>
+                        <li data-i18n="projects.project3.achievement1">Développemnt de l'application web Symfony 5 avec architecture MVC</li>
+                        <li data-i18n="projects.project3.achievement2">Développemnt de l'application desktop avec JavaFX avec interface moderne</li>
+                        <li data-i18n="projects.project3.achievement3">Synchronisation entre l'application web et desktop</li>
+                    </ul>
+                    
+                    <div class="project-evidence">
+                        <div class="evidence-item">
+                            <i class="fab fa-github"></i>
+                            <span>Repository GitHub : </span>
+                            <a href="https://github.com/chaimaktari" target="_blank" class="evidence-link" data-i18n="projects.view.github">
+                                <i class="fas fa-external-link-alt"></i> Voir le code source
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags">
+                        <span class="tech-tag">Symfony 5</span>
+                        <span class="tech-tag">PHP 8</span>
+                        <span class="tech-tag">Twig</span>
+                        <span class="tech-tag">JavaFX</span>
+                        <span class="tech-tag">Java 21</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">API REST</span>
+                        <span class="tech-tag">Bootstrap 5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Lightbox pour afficher le Jenkinsfile (ajoutez après le lightbox des diplômes) -->
+<div id="jenkinsfile-lightbox" class="lightbox">
+    <div class="lightbox-content jenkinsfile-lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="jenkinsfile-header">
+            <h3>Jenkinsfile</h3>
+            <button class="copy-jenkinsfile-btn">
+                <i class="fas fa-copy"></i> Copier
+            </button>
+        </div>
+        <pre><code class="jenkinsfile-code">pipeline {
+   pipeline {
+    agent any 
+    environment {
+        DOCKER_IMAGE = 'ktarichaima-g7-coconsult'  
+        IMAGE_TAG = '0.0.5'  
+    }
+    stages {
+        stage('Checkout GIT') {
+            steps {
+                echo 'Pulling from Git'
+                git branch: 'feature-chaimaKTARI',
+                    url: 'https://github.com/chaimaktari/5se1-g7-coconsult-backend.git'
+            }
+        }
+
+        stage('Clean, Build & Test') {
+    steps {
+        script {
+            try {
+                
+                sh '''
+                    docker run --name mysql-test -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_DATABASE=Coconsult -p 3306:3306 -d mysql:8
+                    sleep 30  # Attente pour que MySQL soit prêt
+                    mvn clean install  # Construction du projet
+                    mvn jacoco:report  # Rapport Jacoco
+                '''
+            } finally {
+                 sh '''
+                    docker stop mysql-test || true
+                    docker rm mysql-test || true
+                '''
+            }
+        }
+    }
+}
+        stage('Static Analysis') {
+            environment {
+                SONAR_URL = "http://192.168.88.130:9000/"
+            }
+            steps {
+                withCredentials([string(credentialsId: 'sonar-credentials', variable: 'SONAR_TOKEN')]) {
+                    sh '''
+                        mvn sonar:sonar \
+                        -Dsonar.login=${SONAR_TOKEN} \
+                        -Dsonar.host.url=${SONAR_URL} \
+                        -Dsonar.java.binaries=target/classes \
+                        -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
+                    '''
+                }
+            }
+        }
+
+        stage('Upload to Nexus') {
+            steps {
+                script {
+                    echo "Deploying to Nexus..."
+                    nexusArtifactUploader(
+                        nexusVersion: 'nexus3',
+                        protocol: 'http',
+                        nexusUrl: "192.168.88.130:9001",
+                        groupId: 'com.bezkoder',
+                        artifactId: 'CoConsult',
+                        version: '1.5',
+                        repository: "maven-central-repository",
+                        credentialsId: "nexus-credentials",
+                        artifacts: [
+                            [
+                                artifactId: 'CoConsult',
+                                classifier: '',
+                                file: 'target/CoConsult.jar', 
+                                type: 'jar'
+                            ]
+                        ]
+                    )
+                    echo "Deployment to Nexus completed!"
+                }
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    def nexusUrl = "http://192.168.88.130:9001"
+                    def groupId = "com.bezkoder"
+                    def artifactId = "CoConsult"
+                    def version = "1.5"
+
+                    sh """
+                        docker build -t ${DOCKER_IMAGE}:${IMAGE_TAG} \
+                        --build-arg NEXUS_URL=${nexusUrl} \
+                        --build-arg GROUP_ID=${groupId} \
+                        --build-arg ARTIFACT_ID=${artifactId} \
+                        --build-arg VERSION=${version} .
+                    """
+                }
+            }
+        }
+
+        stage('Push Docker Image') {
+            environment {
+                DOCKER_HUB_CREDENTIALS = credentials('docker-hub-credentials')
+            }
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'docker-hub-credentials', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                        sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
+                        sh "docker tag ${DOCKER_IMAGE}:${IMAGE_TAG} $DOCKER_USERNAME/${DOCKER_IMAGE}:${IMAGE_TAG}"
+                        sh "docker push $DOCKER_USERNAME/${DOCKER_IMAGE}:${IMAGE_TAG}"
+                    }
+                }
+            }
+        }
+           stage('Docker Compose Up') {
+            steps {
+              script {   
+                    sh 'docker compose up -d'
+                }
+            }
+        }            
+    }
+post {
+        success {
+            script {
+                slackSend(channel: '#jenkins-msg', 
+                          message: "Le build a réussi : ${env.JOB_NAME} #${env.BUILD_NUMBER} ! Image pushed: ${DOCKER_IMAGE}:${IMAGE_TAG} successfully.")
+            }
+            mail to: 'chaima.ktari@esprit.tn',
+                 subject: "Succès de Build : ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                 body: "Détails : ${env.BUILD_URL}"
+        }
+        
+        failure {
+            script {
+                slackSend(channel: '#jenkins-msg', 
+                          message: "Le build a échoué : ${env.JOB_NAME} #${env.BUILD_NUMBER}.")
+            }
+            mail to: 'chaima.ktari@esprit.tn',
+                 subject: "Échec de Build : ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                 body: "Détails : ${env.BUILD_URL}"
+        }
+    }
+}
+
+}</code></pre>
+    </div>
+</div>
+
+
+   <!-- Contact Section -->
+<section id="contact" class="section">
+    <h2 class="section-title" data-i18n="contact.title">Contactez-moi</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3 data-i18n="contact.email">Email</h3>
+                    <a href="mailto:chaimaktari6gmail.com" class="contact-link">chaimaktari6@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h3 data-i18n="contact.phone">Téléphone</h3>
+                    <a href="tel:+21623703180" class="contact-link">+216 23 703 180</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h3 data-i18n="contact.location">Localisation</h3>
+                    <p data-i18n="contact.location.value">Tunis, Tunisie</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/chaima-ktari-544a321ba" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        linkedin.com/in/chaima-ktari
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+      
+        <div class="contact-cta">
+            <h3 data-i18n="contact.availability">Disponibilité</h3>
+            <p data-i18n="contact.availability.value">Ouverte aux opportunités en développement Full-Stack,DevOps et IA</p>
+            <p class="contact-note" data-i18n="contact.note">N'hésitez pas à me contacter par email ou LinkedIn pour discuter de collaborations ou opportunités.</p>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
