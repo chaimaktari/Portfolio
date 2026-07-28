@@ -251,7 +251,7 @@ const translations = {
         // Degree 2
         "education.degree2.title": "Licence National en Mecanique",
         "education.degree2.school": "Institut Supérieur de Etudes Technologique de BEJA (ISET)",
-        "education.degree2.details": "Spécialisation: Mecatronique | Mention: Bien | Moyenne : 13.34",
+        "education.degree2.details": "Spécialité: Mecatronique | Mention: Bien | Moyenne : 13.34",
         
         // Degree 3
         "education.degree3.title": "Baccalauréat Sciences Technique",
