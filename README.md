@@ -17,10 +17,10 @@ Portfolio professionnel d'Chaima KTARI, Ingénieure Informatique.
 - Visualisation des diplômes
 
 ## 🔗 Liens
-- 🌐 **Site en ligne** : [asmachoueibi.github.io/Portfolio/](https://asmachoueibi.github.io/Portfolio/)
-- 💼 **LinkedIn** : [linkedin.com/in/asma-chouaibi](https://www.linkedin.com/in/asma-chouaibi/)
-- 💻 **GitHub** : [github.com/AsmaChoueibi](https://github.com/AsmaChoueibi)
+- 🌐 **Site en ligne** : [chaimaktari.github.io/Portfolio/](https://chaimaktari.github.io/Portfolio/)
+- 💼 **LinkedIn** : [linkedin.com/in/chaima-ktari](https://www.linkedin.com/in/chaima-ktari-544a321ba/)
+- 💻 **GitHub** : [github.com/chaimaktari](https://github.com/chaimaktari)
 
 ## 📞 Contact
-- Email : asma.choueibi@gmail.com
+- Email : ktarichaima6@gmail.com
 - Localisation : Tunis, Tunisie
